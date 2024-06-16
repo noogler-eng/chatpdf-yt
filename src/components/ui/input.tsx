@@ -1,11 +1,13 @@
-// we can write import React from "react", both have same meaning
+// 1.  we can write import React from "react", both have same meaning
+// 2. class merging function with array as input
 import * as React from "react"
-
 import { cn } from "@/lib/utils"
 
 export interface InputProps
   extends React.InputHTMLAttributes<HTMLInputElement> {}
 
+// 3. props are comming with className, type, ...props
+// 4. defing its type and merging classes using cn
 const Input = React.forwardRef<HTMLInputElement, InputProps>(
   ({ className, type, ...props }, ref) => {
     return (
