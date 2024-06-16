@@ -26,6 +26,10 @@ yarn-debug.log*
 yarn-error.log*
 
 # local env files
+# including all the .env __ .local to .gitignore
+# contains -
+# NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=""
+# CLERK_SECRET_KEY=""
 .env*.local
 
 # vercel
