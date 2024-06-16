@@ -1,3 +1,4 @@
+// we can write import React from "react", both have same meaning
 import * as React from "react"
 
 import { cn } from "@/lib/utils"
